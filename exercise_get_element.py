@@ -1,4 +1,6 @@
 # Ejercicio 2: Obtener elemento en posición específica
+from operator import index
+
 
 def get_element(lista, indice):
     """
@@ -13,3 +15,7 @@ def get_element(lista, indice):
         El elemento en la posición indicada o None si está fuera de rango
     """
     pass  # Reemplazar con tu implementación
+    if indice>=len(lista) or indice<len(lista) *(-1):
+        return None
+    else:
+        return lista[indice]
