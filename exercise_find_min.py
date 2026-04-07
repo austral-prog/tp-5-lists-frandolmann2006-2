@@ -12,3 +12,8 @@ def find_min(lista):
         El valor mínimo de la lista o None si está vacía
     """
     pass  # Reemplazar con tu implementación
+
+    if len(lista)==0:
+        return None
+    else:
+        return min(lista)
